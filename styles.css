@@ -1,0 +1,197 @@
+
+
+
+/* header */
+.header {
+    background-color: #c0c0c0;
+    padding: 30px;
+    text-align: center;
+    color:#fff;
+}
+.Icon-margin{
+    background-color: #000;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 45px;
+    margin-right: 45px;
+    border-radius: 120px;
+    height: 215px;
+}
+
+
+/* Menu or nav bar */
+#navbar{
+    overflow:hidden;
+    background-color:black;
+
+}
+#navbar a{
+    float: left;
+    display: block;
+    color: #fff;
+    text-align: center;
+    padding:14px 16px;
+    text-decoration: none;
+    font-size: 20px;
+}
+#navbar a:hover{
+    background-color: #5c5a5a;
+    color: #000;
+}
+
+#navbar a.active{
+    background-color: #fff;
+    color: black;
+}
+
+.sticky{
+    position: fixed;
+    top:0;
+    width: 100%;
+}
+.sticky + .content{
+    padding-top: 60px;
+}
+
+
+/* Body stuff*/
+body {
+    color:#fff;
+    /* white neon background */
+    background-color: #f2f3f4;
+    margin: 0;
+    font-size: 28px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+/* Body any type of text or image's for body */
+.body{
+    padding: 18px;
+    flex-grow: 1;
+    flex-shrink: 0;
+    flex-basis: auto;
+}
+/* about margin header and paragraph*/ 
+
+.about-div{
+    background-color: black;
+    border-radius: 4px;
+}
+
+.about-h3{
+    color:black;
+    font-style: italic;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    border-radius: 5px;
+    font-size: 45px;
+    text-align: center;
+}
+
+.about-p{
+    font-size: 22px;
+    color:#fff;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    height: max-content;
+}
+
+/* footer */
+.footer{
+    background-color: black;
+    position: absolute;
+    left: 0;
+    right: 0;
+    
+    padding: 1rem;
+    color: white;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px ;
+    /* new code text */
+    flex-grow: 0;
+    flex-shrink: 0;
+    flex-basis: auto;
+}
+.By-name{
+    color:#fff;
+    font-style: italic;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-variant: normal;
+    font-size: 28px;
+    margin-left: 5px;
+    margin-right: 95%;
+    margin-top: 7.5px;
+    padding-right: 0%;
+
+
+}
+.footer-first-name{
+    color:#fff;
+    font-size: 20px;
+    font-style: italic;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-variant: small-caps;
+    margin-left: 60px;
+    margin-top: 0px;
+    margin-right: 75%;
+    margin-top: -55px;
+    
+}
+
+.footer-last-name{
+    font-size: 19px;
+    color:#fff;
+    margin-left: 5px;
+    margin-top: -15.5px;
+    margin-right: 76%;
+    margin-bottom:5px
+
+}
+.social-icon{
+    border-style: solid;
+    border-color: #383939;
+    margin-left: 70%;
+    margin-right: 12%;
+    margin-top: -50px;
+    margin-bottom: 15px;
+    padding-left:4px;
+}
+.social-Icon-text{
+    font-size: 25px;
+    text-align: center;
+    margin-right: 0%;
+    margin-left: 0%;
+    padding-left: 20%;
+
+}
+.twitter-icon{
+    height: 35px;
+    width: 35px;
+    margin-top: 2px;
+    margin-bottom: -2px;
+    padding-right: 2px;
+    padding-left: 5px;
+}
+.github-icon{
+    height: 35px;
+    width: 35px;
+    margin-top: 2px;
+    margin-bottom: -2px;
+    padding-right: 5px;
+}
+.codepen-icon{
+    height: 35px;
+    width:35px;
+    margin-top: 2px;
+    margin-bottom:-2px;
+    padding-right: 5px
+}
+.email-icon{
+    height: 35px;
+    width: 35px;
+    margin-top:2px;
+    margin-bottom: -2px;
+    padding-right: 5px;
+}
+
