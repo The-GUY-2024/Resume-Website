@@ -14,17 +14,130 @@
     
     </head>
 
-    <body>
+    <body onload="clear_all()">
         <section id="home">
             <div class="header">
-
+                <img class="header-gif" src="./sociol-icon/ligth_switch_gif.gif">
             </div>
         </section>
 
         <div id="navbar">
             <a class="" href="./index.html#home"> Home </a>
             <a class="" href="./index.html#about"> About</a>
-            <a class="" href="index.htm#contact">Contact</a>
+            <a class="" href="./index.html#contact">Contact</a>
+            
+
         </div>
+        <div class="body"> 
+            <!-- what is this project about  -->
+            <h3 class="witp-h3"> 
+                What is this project 
+            </h3>
+
+            <div class="About">
+            <!-- paragraph (witp) -->
+                <p class="witp-p"> 
+                    ome text to enable scrolling.. Lorem ipsum dolor sit amet, illum definitiones no quo, maluisset concludaturque et eum, altera fabulas ut quo. Atqui causae gloriatur ius te, id agam omnis evertitur eum. Affert laboramus repudiandae nec et. Inciderint efficiantur his ad. Eum no molestiae voluptatibusome text to enable scrolling.. Lorem ipsum dolor sit amet, illum definitiones no quo, maluisset concludaturque et eum, altera fabulas ut quo. Atqui causae gloriatur ius te, id agam omnis evertitur eum. Affert laboramus repudiandae nec et. Inciderint efficiantur his ad. Eum no molestiae voluptatibus ome text to enable scrolling.. Lorem ipsum dolor sit amet, illum definitiones no quo, maluisset concludaturque et eum, altera fabulas ut quo. Atqui causae gloriatur ius te, id agam omnis evertitur eum. Affert laboramus repudiandae nec et. Inciderint efficiantur his ad. Eum no molestiae voluptatibus
+                </p>
+            </div>
+      
+            
+
+            <!-- python nodejs & c++  button -->
+            <div class=button-div > 
+                
+                <a type="button" onclick="Node_JS()" id="Button_nodejs" class="" href="#js-body">
+                    Node-JS
+                </a>
+                
+                <a type="button"  onclick="Python()" id="Button_py" href="#py-body" class="">
+                    Python
+                </a>
+                
+                <a type="button" onclick="CPP()" id="Button_cpp" href="#c-body" class="">
+                    C++
+                </a>
+
+            </div>
+
+
+            <!--    Node-js Body -->
+            <section id="js-body">
+            
+                <div id="NodeJS-body" style="margin:90px ;" >
+                    <h3 class="h-js">  NODE JS </h3>
+                </div>
+            </section>
+            
+            <!--   Python Body-->
+            <section id="py-body">
+
+                <div id="Python-body" style="margin:90px;">
+                    <h3 class="h-py"> Python </h3>
+                </div>
+            </section>
+
+
+            <!-- C++ -->
+            <section id="c-body">
+                
+                <div id="CPP-body" style="margin:90px">
+                    <h3 class="h-cpp"> C++ </h3>
+                </div>
+            </section>
+
+        </div>
+
+
+        <script>
+            
+            function clear_all(){
+                var x = document.getElementById("NodeJS-body");
+                var y = document.getElementById("CPP-body");
+                var z = document.getElementById("Python-body")
+
+
+                x.style.display="none";
+                y.style.display="none";
+                z.style.display="none";
+            }
+            function Node_JS(){
+                clear_all();
+                var x = document.getElementById("NodeJS-body");
+                if (x.style.display === "none")
+                {
+                    x.style.display = "block";
+                }
+                else{
+                    x.style.display= "none";
+                }
+            }
+            function CPP(){
+                clear_all();
+                var x = document.getElementById("CPP-body");
+                if (x.style.display === "none")
+                {
+                    x.style.display = "block";
+                }
+                else{
+                    x.style.display= "none";
+                }
+            }
+
+            function Python(){
+                clear_all();
+                var x = document.getElementById("Python-body");
+                if (x.style.display === "none")
+                {
+                    x.style.display = "block";
+                }
+                else{
+                    x.style.display= "none";
+                }
+            }
+
+        </script>
+        <script src="./Light-Switch.js"></script>
+
     </body>
-</html>
+</html

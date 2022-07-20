@@ -80,6 +80,8 @@ body {
     width: fit-content;
     padding-top: 5px;
     padding-bottom: 5px;
+
+    margin: -8px
     
 }
 
@@ -113,6 +115,7 @@ body {
     width: auto;
     padding-top: 5px;
     padding-bottom: 5px;
+    margin: -8px;
 }
 
 .image-holder{
@@ -197,14 +200,16 @@ body {
     padding-left: 15px;
     padding-right: 0px;
     padding-top: 15px;
+    margin: -8px;
 
 }
+
 /* Light Switch project*/
 .Light-switch{
     background-color: #fff;
     border-radius: 5px;
     text-align: center;
-    margin-right: 0%;
+    margin-right: 0px;
     margin-top: -7px;
     width: fit-content;
     height: 170px;
@@ -226,6 +231,47 @@ body {
 }
 a{
     text-decoration: none;
+}
+
+/* Web Cam Stream*/
+.Web-camStream {
+    background-color: #fff;
+    border-radius: 5px;
+    text-align: center;
+    margin-top: -186px;
+    width:fit-content;
+    height: 170px;
+    -webkit-transition: background 1s;
+    margin-left: 115px;
+}
+.Web-camStream:hover{
+    background-color: #383939;
+}
+
+.Web-Stream-text{
+    text-align: center;
+    color:black;
+    font-size: 60%;
+    padding-top: 60%;
+    padding-bottom: 60%;
+    margin-bottom: -93px;
+}
+
+.Web-Stream-text:hover{
+    color: #fff;
+}
+
+.Web-Stream-text-2{
+    text-align: center;
+    color:black;
+    font-size: 60%;
+    padding-top: 60%;
+    padding-bottom: 60%;
+    margin-top:0px;
+}
+
+.Web-Stream-text-2:hover{
+    color:#fff;
 }
 
 
@@ -269,7 +315,8 @@ a{
     margin-left: 60px;
     margin-top: 0px;
     margin-right: 75%;
-    margin-top: -55px;
+    margin-top: -58px;
+    padding-right: 106px;
     
 }
 
@@ -279,7 +326,8 @@ a{
     margin-left: 5px;
     margin-top: -15.5px;
     margin-right: 76%;
-    margin-bottom:5px
+    margin-bottom:5px;
+    padding-right: 78px;
 
 }
 .social-icon{
@@ -328,3 +376,4 @@ a{
     margin-bottom: -2px;
     padding-right: 5px;
 }
+

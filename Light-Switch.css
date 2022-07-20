@@ -1,0 +1,135 @@
+/* header */
+.header {
+    background-color: #292828;
+    padding: 0px;
+    text-align: center;
+    color:#fff;
+    
+}
+.header-gif{
+height: 60%;
+width: 100%;
+}
+
+/* Menu or nav bar */
+#navbar, a{
+    overflow:hidden;
+    background-color:black;
+
+}
+#navbar a,  a{
+    float: left;
+    display: block;
+    color: #fff;
+    text-align: center;
+    padding:14px 16px;
+    text-decoration: none;
+    font-size: 20px;
+}
+#navbar a:hover, a:hover {
+    background-color: #5c5a5a;
+    color: #000;
+}
+
+#navbar a.active ,a.active{
+    background-color: #fff;
+    color: black;
+}
+
+.sticky{
+    position: fixed;
+    top:0;
+    width: 100%;
+}
+.sticky + .content{
+    padding-top: 60px;
+}
+
+/* Body stuff*/
+body {
+    color:#fff;
+    /* white neon background */
+    background-color: #f2f3f4;
+    margin: 0;
+    font-size: 28px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+/* About stuff*/
+.witp-h3{
+    color:black;
+    font-style: italic;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    
+    font-size: 45px;
+    text-align: center;
+    padding-bottom: 0px;
+    padding-top: 75px;
+}
+
+.About{
+
+    background-color: black;
+    border-radius: 5px;
+    height: fit-content;
+    width: fit-content;
+    padding-top: 5px;
+    padding-bottom: 5px;
+
+    margin: 5px;
+}
+.witp-p{
+    font-size: 22px;
+    color:#fff;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    height: max-content;
+}
+
+/* Programming lang button */
+
+
+.button-div{
+    background-color: black;
+    height: fit-content;
+    width: fit-content;
+    
+    margin-left: 72.25%;
+    margin-top: 2.25px;
+
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 35px;
+
+
+    padding-bottom: 10px;
+}
+.Button_cpp{
+    float: left;
+    display: block;
+    color: #fff;
+    text-align: center;
+    padding:14px 16px;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+
+/* programing language body */
+.h-js{
+    color:#000;
+    text-align: center;
+}
+
+
+.h-py{
+    color:#000;
+    text-align:center;
+}
+
+.h-cpp{
+    color: #000;
+    text-align: center;
+}
