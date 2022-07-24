@@ -26,7 +26,7 @@
             <a class="" href="./index.html#about"> About</a>
             <a class="" href="./index.html#contact">Contact</a>
             <a class="" href="./Light-Switch.html#Schematic">Schematic</a>
-
+            <a class="" href="./Light-Switch.html#Code"> Code </a>
         </div>
         <div class="body"> 
             <!-- what is this project about  -->
@@ -94,6 +94,7 @@
 
             <!-- python nodejs & c++  button -->
             <h3 class="code-h">Code</h3>
+            <section id="Code">
             <div class=button-div > 
                 
                 <a type="button" onclick="Node_JS()" id="Button_nodejs" class="" href="#js-body">
@@ -107,6 +108,7 @@
                 
 
             </div>
+            </section>
 
 
             <!--    Node-js Body -->
@@ -116,7 +118,71 @@
                     <div class="code-js1">
                         <h3 class="h-js">  NODE JS </h3>
                        
+                        <div class="nodejs-git-button">
+                            <a class="btnjs-git" onclick = "window.open('https://github.com/The-GUY-2024/raspberry_LightSwitch', '_blank')">Git-hub</a>
 
+                        </div>
+                        <h3 class="h-code1js"> Server Side </h3>
+                        <div class="First-code">
+                            <img class="first-code-img" src="./Node-js-code/codejs-1.PNG">
+                            <p class="p-codejs"> 
+                                In the image above you can see we import all dependencies(APIS) for the code to work. 
+                            </p>
+                        </div>
+                        <div class="second-code">
+                            <img class="first-code-img" src="./Node-js-code/codejs-2.PNG">
+                            <p class="p-codejs">
+                                Here the gpio on & off functions are predefine 
+                            </p>
+                        </div>
+
+                        <div class="third-code">
+                            <img class="first-code-img" src="./Node-js-code/create_webserver.PNG">
+
+                            <p class="p-codejs">
+                                here we get the device ip in (Line 23).
+                                And on (Line 27 ) the app(web server ) is define to be call later to run.
+                                From (Line 36 ) to (Line 43) the Web server instruction are define .
+
+                            </p>
+                        </div>
+
+                        <div class="four-code">
+                            <img class="first-code-img" src="./Node-js-code/send_html data & report client info.PNG">
+                            <p class="p-codejs">
+                                The first 2 lines tell's the client of the server were the data for the website is and how to find it.
+                                The last line initiate the web serve and display any client information(ip address & handshake) that connects to the web server 
+
+                            </p>
+
+                        </div>
+                        
+                        <div class="five-code">
+                            <img class="first-code-img" src="./Node-js-code/listen_for communicatio_client.PNG">
+
+                            <p class="p-codejs">
+                                From (Line 62 ) to (Line 77) we listing from commands coming from client side (WEBSITE ),
+                                The commands are ether on & off and the commands define if the light is going to be on or off.
+                            </p>
+                        </div>
+
+
+                        <h3 class="h-code1js"> Client Side </h3>
+                        <div class="Client-code">
+                            <img src="./Node-js-code/button.PNG" class="first-code-img">
+                            <p class="p-codejs">
+                                This website is the controller of the light switch this is how you turn it off and on
+                                .(The main goal was to build a app but i don't have a mac to build a app for my iphone ). 
+                           </p>
+                           
+                        </div>
+                        <div class="Client-code">
+                            <img src="./Node-js-code/tell server on & off.PNG" class="first-code-img">
+                            <p class="p-codejs">
+                                this part of the code communicates with the server when the button is press
+                                it will communicate the state( ON or OFF) & store data ( updates data for all client or user from on to off). 
+                            </p>
+                        </div>
                     </div>
                     
 

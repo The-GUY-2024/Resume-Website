@@ -210,8 +210,32 @@ body {
     text-align: center;
     padding-top: 30px;
 }
-
-
+.h-code1js{
+    color: #fff;
+    text-align:center;
+    padding-top:30px;
+    font-size: 24px;
+}
+.first-code-img{
+    width: -moz-available;
+    height: 15%;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 25px;
+    padding-top: 18px;
+    
+}
+.p-codejs{
+    font-size: 20px;
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    height: max-content;
+    margin-left: 25px;
+    margin-right: 25px;
+    margin-top: -24px;
+    margin-bottom: 20px;
+}
 
 
 
@@ -229,11 +253,19 @@ body {
 /* Code display (1) */
 .code-js1{
     background: #000;
-    height: 200px;
+    height: fit-content;
     width: 100%;
     border-radius: 5px;
 
 }
+.btnjs-git{
+    background-color: #fff;
+    color:#000;
+    border-radius:20px ;
+    margin-top: -100px;
+    margin-left: 0px;
+}
+
 .codejs-img-1{
     margin: 5%;
     padding: 1%px;
@@ -245,3 +277,5 @@ body {
     width: 25%;
     height: 25%;
 }
+
+
