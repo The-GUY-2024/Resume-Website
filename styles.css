@@ -59,7 +59,7 @@
 body {
     color:#fff;
     /* white neon background */
-    background-color: #f2f3f4;
+    background-color: rgb(31, 33, 35);
     margin: 0;
     font-size: 28px;
     font-family: Arial, Helvetica, sans-serif;
@@ -86,7 +86,7 @@ body {
 }
 
 .about-h3{
-    color:black;
+    color:#999797;
     font-style: italic;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-weight: bold;
@@ -148,7 +148,7 @@ body {
 }
 
 .contact-h3{
-    color:black;
+    color:#999797;
     font-style: italic;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-weight: bold;
@@ -180,7 +180,7 @@ body {
 
 /*Project */
 .project-h3{
-    color:black;
+    color:#999797;
     font-style: italic;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-weight: bold;
@@ -277,10 +277,11 @@ a{
 
 /* footer */
 .footer{
-    background-color: black;
+    background-color: #161515e8;
     position: absolute;
     left: 0;
     right: 0;
+   
     
     padding: 1rem;
     color: white;
@@ -291,45 +292,7 @@ a{
     flex-shrink: 0;
     flex-basis: auto;
 }
-.By-name{
-    color:#fff;
-    font-style: italic;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-weight: bold;
-    font-variant: normal;
-    font-size: 28px;
-    margin-left: 5px;
-    margin-right: 95%;
-    margin-top: 7.5px;
-    padding-right: 0%;
 
-
-}
-.footer-first-name{
-    color:#fff;
-    font-size: 20px;
-    font-style: italic;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-weight: bold;
-    font-variant: small-caps;
-    margin-left: 60px;
-    margin-top: 0px;
-    margin-right: 75%;
-    margin-top: -58px;
-    padding-right: 106px;
-    
-}
-
-.footer-last-name{
-    font-size: 19px;
-    color:#fff;
-    margin-left: 5px;
-    margin-top: -15.5px;
-    margin-right: 76%;
-    margin-bottom:5px;
-    padding-right: 78px;
-
-}
 .social-icon{
     border-style: solid;
     border-color: #383939;
@@ -377,3 +340,65 @@ a{
     padding-right: 5px;
 }
 
+
+
+
+/*Footer image holder */
+.footer-imgs{
+    background-color: #212121;
+    margin-left: 80%;
+    border-radius: 6px;
+    padding-top: 0px;
+    height: 5%;
+    width: -moz-available;
+    margin-bottom: -10px;
+}
+
+.fi-twitter{
+    height: 15%;
+    width: 15%;
+    padding-left: 4px;
+    padding-right: 2px;
+    padding-bottom: 1px;
+    padding-top: 5px;
+}
+
+.fi-github{
+    height: 15%;
+    width: 15%;
+    padding-left: 1.5px;
+    padding-bottom: 1px;
+    padding-right: 1.5px;
+    border-radius: 3px;
+    margin-left: -5px;
+}
+
+.fi-codepen{
+    height: 15%;
+    width: 15%;
+    padding-left: 2.5px;
+    padding-bottom: 1px;
+    padding-right: 1.5px;
+    margin-left: -4px;
+}
+.fi-instagram{
+    height: 15%;
+    width: 15%;
+    padding-left: 2.5px;
+    padding-bottom: 1px;
+    padding-right: 2.5px;
+    margin-left: -4px;
+    border-radius: 6px;
+}
+
+.name{
+    background-color:#161515e8;
+    height: 10%;
+    width: 42%;
+    margin-top: 3px;
+    margin-bottom: -48px;
+}
+.p-name{
+    color:#999797;
+    font-size:11px;
+}

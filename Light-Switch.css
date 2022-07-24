@@ -49,7 +49,7 @@ width: 100%;
 body {
     color:#fff;
     /* white neon background */
-    background-color: #f2f3f4;
+    background-color: rgb(31, 33, 35);
     margin: 0;
     font-size: 28px;
     font-family: Arial, Helvetica, sans-serif;
@@ -58,7 +58,7 @@ body {
 
 /* About stuff*/
 .witp-h3{
-    color:black;
+    color:#999797;
     font-style: italic;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-weight: bold;
@@ -87,9 +87,95 @@ body {
     text-align: center;
     height: max-content;
 }
+/* Schematic explanation*/
 
+.sch-explanation{
+    color:#999797;
+    font-style: italic;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: 45px;
+    text-align: center;
+    padding-bottom: 0px;
+    padding-top: 75px;
+}
+
+
+.Schematic{
+    background-color: black;
+    border-radius: 5px;
+    height: fit-content;
+    width: fit-content;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin: 5px;
+}
+.sch-p{
+    font-size: 22px;
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    height: max-content;
+    margin-left: 25px;
+    margin-right: 25px;
+    margin-top: -24px;
+    margin-bottom: 20px;
+}
+.N-S-img{
+    height: 75%;
+    width: 80%;
+    
+    padding-right:10%;
+    padding-left: 10%;
+    padding-bottom: 6%;
+    padding-top:-0%;
+}
+
+.N-S-H{
+    text-align: center;
+    font-size: 32px;
+}
+.E-S-H{
+    text-align: center;
+    font-size: 32px;
+}
+.E-S-img{
+    width: 80%;
+    height: 95%;
+    padding-right: 10%;
+    padding-left: 10%;
+    padding-bottom: 6%;
+    padding-top: -0%;
+}
+
+.rsp-gpio{
+    padding-right: 10%;
+    padding-left: 10%;
+    padding-top:0%;
+    padding-bottom: 6%;
+    width: 80%;
+    height: 70%;
+}
+
+.signal-gpio{
+    padding-left: 44px;
+    padding-right: 44px;
+    padding-top: 0px;
+    padding-bottom: 44px;
+    height: 250px;
+}
 /* Programming lang button */
 
+.code-h{
+    color:#999797;
+    font-style: italic;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: 45px;
+    text-align: center;
+    padding-bottom: 0px;
+    padding-top: 75px;
+}
 
 .button-div{
     background-color: black;
@@ -117,11 +203,16 @@ body {
 }
 
 
-/* programing language body */
+/* programing language  title body */
 .h-js{
-    color:#000;
+    color:#fff;
+    
     text-align: center;
+    padding-top: 30px;
 }
+
+
+
 
 
 .h-py{
@@ -132,4 +223,25 @@ body {
 .h-cpp{
     color: #000;
     text-align: center;
+}
+
+
+/* Code display (1) */
+.code-js1{
+    background: #000;
+    height: 200px;
+    width: 100%;
+    border-radius: 5px;
+
+}
+.codejs-img-1{
+    margin: 5%;
+    padding: 1%px;
+    height: 75%;
+    width: 85%;
+}
+
+.gif-but{
+    width: 25%;
+    height: 25%;
 }

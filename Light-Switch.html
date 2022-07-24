@@ -25,7 +25,7 @@
             <a class="" href="./index.html#home"> Home </a>
             <a class="" href="./index.html#about"> About</a>
             <a class="" href="./index.html#contact">Contact</a>
-            
+            <a class="" href="./Light-Switch.html#Schematic">Schematic</a>
 
         </div>
         <div class="body"> 
@@ -37,13 +37,63 @@
             <div class="About">
             <!-- paragraph (witp) -->
                 <p class="witp-p"> 
-                    ome text to enable scrolling.. Lorem ipsum dolor sit amet, illum definitiones no quo, maluisset concludaturque et eum, altera fabulas ut quo. Atqui causae gloriatur ius te, id agam omnis evertitur eum. Affert laboramus repudiandae nec et. Inciderint efficiantur his ad. Eum no molestiae voluptatibusome text to enable scrolling.. Lorem ipsum dolor sit amet, illum definitiones no quo, maluisset concludaturque et eum, altera fabulas ut quo. Atqui causae gloriatur ius te, id agam omnis evertitur eum. Affert laboramus repudiandae nec et. Inciderint efficiantur his ad. Eum no molestiae voluptatibus ome text to enable scrolling.. Lorem ipsum dolor sit amet, illum definitiones no quo, maluisset concludaturque et eum, altera fabulas ut quo. Atqui causae gloriatur ius te, id agam omnis evertitur eum. Affert laboramus repudiandae nec et. Inciderint efficiantur his ad. Eum no molestiae voluptatibus
+                    This project is a simple electronic light switch called(relay), Being manipulated by gpio(raspberry pi).
+                    The user interaction happends on a website at the raspberry pi ip address
                 </p>
+
             </div>
-      
             
+            <section id="Schematic">
+                <h3 class="sch-explanation">
+                    Explaning Schematic
+                </h3>
+                <div class="Schematic">
+                    <!-- Network schematic stuff -->
+                    <h3 class="N-S-H"> Network Schematic </h3>
+                    <img class="N-S-img" src="./sociol-icon/network_schematic.png">
+                    <p class="sch-p">
+                        The Raspberry Pi is a low cost, credit-card sized computer that plugs into a computer monitor or TV.
+                        The Raspberry Pi connect's to the wifi that is predefined in the raspberry os installation process.
+
+                        Any of the program can be set to run on boot (In my case i don't have this enable).
+
+                    </p>
+
+                    <h3 class="E-S-H" > Raspberry pi Gpio</h3>
+                    <img class="rsp-gpio" src="/sociol-icon/pi3_gpio.webp">
+                    <p class="sch-p">
+                        The raspberry pi computer have, General-purpose input/output  or (GPIO), They are 
+                        an uncommitted digital signal pin on a integrated circuit. Gpio signal pin on an integrated circuit or board that can be used to perform 
+                        digital input or output functions, (By design it has no predefined purpose and can be used by the hardware or software developer to perform the functions they choose).
+                    </p>
+
+
+                    <h3 class="E-S-H"> Electronic Schematic </h3>
+                    <img class="E-S-img" src="./sociol-icon/electronic schematic.png">
+
+
+                    <p class="sch-p">
+                        In the image (Electronic schematic) above you can see the red wire is positive (5-DCV),
+                        The black wire is Ground DC of the raspberry pi
+                        The blue wire is output signal wire. The blue wire communicates with the relay and turn the light on & off (the signal is trigger by change a value from (ON) 1 to 0(OFF) ).
+                        The D++ is the input of 5VDC from the raspberry pi to the relay.
+                        The D-- is the Ground of raspberry. 
+                        The CH1 is the input handler (signal handler of the relay) this is were the triggering of on(1) & off(0) happens 
+                    </p>
+
+                    <h3 class="E-S-H"> Signal Gpio</h3> 
+                    <div class="signal-gpio">
+                        <iframe  width="100%" height="100%" src="https://www.youtube.com/embed/X7wB-xOSgcE" title="Raspberry Pi GPIO Pin Debugging and the Pi Day Scope Month Winners! (3.14.17)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </div>
+                    <p class="sch-p">
+                        Basic explanation of gpio if you need it 
+                    </p>
+                </div>
+
+            </section>
 
             <!-- python nodejs & c++  button -->
+            <h3 class="code-h">Code</h3>
             <div class=button-div > 
                 
                 <a type="button" onclick="Node_JS()" id="Button_nodejs" class="" href="#js-body">
@@ -54,9 +104,7 @@
                     Python
                 </a>
                 
-                <a type="button" onclick="CPP()" id="Button_cpp" href="#c-body" class="">
-                    C++
-                </a>
+                
 
             </div>
 
@@ -64,9 +112,20 @@
             <!--    Node-js Body -->
             <section id="js-body">
             
-                <div id="NodeJS-body" style="margin:90px ;" >
-                    <h3 class="h-js">  NODE JS </h3>
+                <div id="NodeJS-body" style="margin:5px; display: block; padding-top: 10px;" >
+                    <div class="code-js1">
+                        <h3 class="h-js">  NODE JS </h3>
+                       
+
+                    </div>
+                    
+
                 </div>
+
+               
+
+
+
             </section>
             
             <!--   Python Body-->
