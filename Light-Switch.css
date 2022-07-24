@@ -1,0 +1,281 @@
+/* header */
+.header {
+    background-color: #292828;
+    padding: 0px;
+    text-align: center;
+    color:#fff;
+    
+}
+.header-gif{
+height: 60%;
+width: 100%;
+}
+
+/* Menu or nav bar */
+#navbar, a{
+    overflow:hidden;
+    background-color:black;
+
+}
+#navbar a,  a{
+    float: left;
+    display: block;
+    color: #fff;
+    text-align: center;
+    padding:14px 16px;
+    text-decoration: none;
+    font-size: 20px;
+}
+#navbar a:hover, a:hover {
+    background-color: #5c5a5a;
+    color: #000;
+}
+
+#navbar a.active ,a.active{
+    background-color: #fff;
+    color: black;
+}
+
+.sticky{
+    position: fixed;
+    top:0;
+    width: 100%;
+}
+.sticky + .content{
+    padding-top: 60px;
+}
+
+/* Body stuff*/
+body {
+    color:#fff;
+    /* white neon background */
+    background-color: rgb(31, 33, 35);
+    margin: 0;
+    font-size: 28px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+/* About stuff*/
+.witp-h3{
+    color:#999797;
+    font-style: italic;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    
+    font-size: 45px;
+    text-align: center;
+    padding-bottom: 0px;
+    padding-top: 75px;
+}
+
+.About{
+
+    background-color: black;
+    border-radius: 5px;
+    height: fit-content;
+    width: fit-content;
+    padding-top: 5px;
+    padding-bottom: 5px;
+
+    margin: 5px;
+}
+.witp-p{
+    font-size: 22px;
+    color:#fff;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    height: max-content;
+}
+/* Schematic explanation*/
+
+.sch-explanation{
+    color:#999797;
+    font-style: italic;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: 45px;
+    text-align: center;
+    padding-bottom: 0px;
+    padding-top: 75px;
+}
+
+
+.Schematic{
+    background-color: black;
+    border-radius: 5px;
+    height: fit-content;
+    width: fit-content;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin: 5px;
+}
+.sch-p{
+    font-size: 22px;
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    height: max-content;
+    margin-left: 25px;
+    margin-right: 25px;
+    margin-top: -24px;
+    margin-bottom: 20px;
+}
+.N-S-img{
+    height: 75%;
+    width: 80%;
+    
+    padding-right:10%;
+    padding-left: 10%;
+    padding-bottom: 6%;
+    padding-top:-0%;
+}
+
+.N-S-H{
+    text-align: center;
+    font-size: 32px;
+}
+.E-S-H{
+    text-align: center;
+    font-size: 32px;
+}
+.E-S-img{
+    width: 80%;
+    height: 95%;
+    padding-right: 10%;
+    padding-left: 10%;
+    padding-bottom: 6%;
+    padding-top: -0%;
+}
+
+.rsp-gpio{
+    padding-right: 10%;
+    padding-left: 10%;
+    padding-top:0%;
+    padding-bottom: 6%;
+    width: 80%;
+    height: 70%;
+}
+
+.signal-gpio{
+    padding-left: 44px;
+    padding-right: 44px;
+    padding-top: 0px;
+    padding-bottom: 44px;
+    height: 250px;
+}
+/* Programming lang button */
+
+.code-h{
+    color:#999797;
+    font-style: italic;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: 45px;
+    text-align: center;
+    padding-bottom: 0px;
+    padding-top: 75px;
+}
+
+.button-div{
+    background-color: black;
+    height: fit-content;
+    width: fit-content;
+    
+    margin-left: 72.25%;
+    margin-top: 2.25px;
+
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 35px;
+
+
+    padding-bottom: 10px;
+}
+.Button_cpp{
+    float: left;
+    display: block;
+    color: #fff;
+    text-align: center;
+    padding:14px 16px;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+
+/* programing language  title body */
+.h-js{
+    color:#fff;
+    
+    text-align: center;
+    padding-top: 30px;
+}
+.h-code1js{
+    color: #fff;
+    text-align:center;
+    padding-top:30px;
+    font-size: 24px;
+}
+.first-code-img{
+    width: -moz-available;
+    height: 15%;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 25px;
+    padding-top: 18px;
+    
+}
+.p-codejs{
+    font-size: 20px;
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    height: max-content;
+    margin-left: 25px;
+    margin-right: 25px;
+    margin-top: -24px;
+    margin-bottom: 20px;
+}
+
+
+
+.h-py{
+    color:#000;
+    text-align:center;
+}
+
+.h-cpp{
+    color: #000;
+    text-align: center;
+}
+
+
+/* Code display (1) */
+.code-js1{
+    background: #000;
+    height: fit-content;
+    width: 100%;
+    border-radius: 5px;
+
+}
+.btnjs-git{
+    background-color: #fff;
+    color:#000;
+    border-radius:20px ;
+    margin-top: -100px;
+    margin-left: 0px;
+}
+
+.codejs-img-1{
+    margin: 5%;
+    padding: 1%px;
+    height: 75%;
+    width: 85%;
+}
+
+.gif-but{
+    width: 25%;
+    height: 25%;
+}
+
+
