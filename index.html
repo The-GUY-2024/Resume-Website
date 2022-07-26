@@ -10,7 +10,168 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">        <!-- link css -->
         <link rel="stylesheet" href="/styles.css">        
+        <style>
         
+        /* header */
+            .header {
+                background-color: #222222;
+                padding: 30px;
+                text-align: center;
+                color:#fff;
+            }
+
+            .header-img{
+                width: 150px;
+                height: 200px;
+                border-radius: 65px;
+                background-color: #000;
+                padding: 25px;
+                margin-top: -25px;
+                margin-bottom: -25px;
+            }
+
+
+/* Menu or nav bar */
+#navbar{
+    overflow:hidden;
+    background-color:black;
+
+}
+#navbar a{
+    float: left;
+    display: block;
+    color: #fff;
+    text-align: center;
+    padding:14px 16px;
+    text-decoration: none;
+    font-size: 20px;
+}
+#navbar a:hover{
+    background-color: #5c5a5a;
+    color: #000;
+}
+
+#navbar a.active{
+    background-color: #fff;
+    color: black;
+}
+
+.sticky{
+    position: fixed;
+    top:0;
+    width: 100%;
+}
+.sticky + .content{
+    padding-top: 60px;
+}
+
+
+/* Body stuff*/
+body {
+    color:#fff;
+    /* white neon background */
+    background-color: rgb(31, 33, 35);
+    margin: 0;
+    font-size: 28px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+/* Body any type of text or image's for body */
+.body{
+    padding: 18px;
+    flex-grow: 1;
+    flex-shrink: 0;
+    flex-basis: auto;
+}
+/* about margin header and paragraph*/ 
+
+.about-div{
+    background-color: black;
+    border-radius: 5px;
+    height: fit-content;
+    width: fit-content;
+    padding-top: 5px;
+    padding-bottom: 5px;
+
+    margin: -8px
+    
+}
+
+.about-h3{
+    color:#999797;
+    font-style: italic;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    
+    font-size: 45px;
+    text-align: center;
+    padding-bottom: 0px;
+    padding-top: 75px;
+}
+
+
+.about-p{
+    font-size: 22px;
+    color:#fff;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    height: max-content;
+}
+
+
+/* Contact paragraph setting & margin's*/
+.contact-div{
+    background-color: black;
+    border-radius: 8px;
+    height: auto;
+    width: auto;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin: -8px;
+}
+
+.image-holder{
+    width: 55%;
+    height: 78%;
+    background-color: #000;
+    padding:20px;
+    text-align: center;
+    margin-left: 21%;
+    margin-right: 21%;
+    margin-top: 3px;
+}
+
+.contact-twitter{
+    height: 47%;
+    width: 32%;
+    margin-left: -17px;
+}
+
+.contact-git{
+    height: 47%;
+    width: 32%;
+}
+
+.contact-codepen{
+    height: 47%;
+    width: 32%;
+    margin-left: 5px;
+    margin-right: 2px;
+}
+
+.contact-h3{
+    color:#999797;
+    font-style: italic;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: 45px;
+    text-align: center;
+    padding-bottom: 0px;
+    padding-top: 75px;
+}
+
+        
+        
+        </style>
     </head>
     <body>
         <section id="home">
